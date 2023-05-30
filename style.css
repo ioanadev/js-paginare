@@ -1,0 +1,23 @@
+#pagination {
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: bisque;
+}
+.products-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* justify-content: center;*/
+  /* align-items: center;*/
+}
+button {
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid rgb(13, 13, 14);
+}
+button.active {
+  background-color: rgb(0, 153, 255);
+}
